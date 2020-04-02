@@ -15,7 +15,7 @@ Including another URLconf
 """
 
 from django.urls import path, include
-
 urlpatterns = [
     path('db_app1', include('db_app1.urls')),
+    path('book', include('book.urls'))
 ]
